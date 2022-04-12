@@ -30,10 +30,6 @@ var getScriptPromisify = (src) => {
       this.render()
     }
 
-
-
-
-
     setmyDataSource(dataBinding){this._myDataSource=dataBindingthis.render()}
 
 
@@ -50,7 +46,7 @@ var getScriptPromisify = (src) => {
 
 
 
-    const option={tooltip:{trigger:'item'},legend:{top:'2%',left:'center'},series:[{name:'',type:'pie',radius:['40%','65%'],avoidLabelOverlap:false,itemStyle:{borderRadius:10,borderColor:'#fff',borderWidth:4},label:{show:false,position:'center'},emphasis:{label:{show:true,fontSize:'25',fontWeight:'bold'}},labelLine:{show:false},data}]}myChart.setOption(option)}}
+    const option ={tooltip:{trigger:'item'},legend:{top:'2%',left:'center'},series:[{name:'',type:'pie',radius:['40%','65%'],avoidLabelOverlap:false,itemStyle:{borderRadius:10,borderColor:'#fff',borderWidth:4},label:{show:false,position:'center'},emphasis:{label:{show:true,fontSize:'25',fontWeight:'bold'}},labelLine:{show:false},data}]}myChart.setOption(option)}}
 
 
   customElements.define('com-sap-sample-echarts-pie_chart_demo_ra', SamplePieChart)
